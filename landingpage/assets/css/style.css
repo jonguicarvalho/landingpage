@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main-back {
+    background: black;
+    color: white
+}
+
+
+.white-back {
+    background: white;
+}
+
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.minsec {
+    min-height: 120vh;
+}
+
+.menu {
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    border-bottom: 1px solid white;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.space-menu {
+    height: 55px;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    height: 100vh;
+}
+
+.home-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.small-fnt {
+    font-size: small;
+}
+
+.large-fnt {
+    font-size: xx-large;
+}
+
+.home-text .large-fnt {
+    margin-bottom: 50px;
+}
+
+.home-img img {
+    max-width: 107%;
+    height: 112.3%;
+
+}
+
+.home-text,
+.home-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.aboutus-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    height: 100vh;
+}
+
+.aboutus-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 5rem;
+}
